@@ -1,0 +1,74 @@
+/* resetcss */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after { 
+  content: '';
+  display: block; 
+  clear: both;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  background-image: url(3.jpg);
+  background-size: cover;
+}
+
+/* ヘッダー */
+.header{
+  width: 100%;
+  height: 10%;
+  background-color: rgba(0,0,0,0.5);
+}
+/* ヘッダー終了 */
+
+/* コンテンツ */
+.content{
+  width: 100%;
+  height: 5%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* コンテンツ終了 */
+
+/* メイン */
+.main{
+  height: 75%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.main_left{
+  float: left;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.main_center{
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.main_center{
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.main_right{
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+/* メイン終了 */
+
+.footer{
+  width: 100%;
+  height: 10%;
+  background-color: rgba(0,0,0,0.5);
+}
